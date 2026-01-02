@@ -7,7 +7,7 @@ def train_one_epoch(model, dataloader, criterion, optimizer, device):
     correct = 0
     total = 0
 
-    for images, labels in tqdm(dataloader):
+    for images, labels in dataloader:
         images = images.to(device)
         labels = labels.to(device)
 
