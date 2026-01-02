@@ -60,3 +60,4 @@ class RegularizedCNN(nn.Module):
 
     def forward(self, x):
         return self.classifier(self.features(x))
+    
