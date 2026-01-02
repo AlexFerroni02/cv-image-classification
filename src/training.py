@@ -1,3 +1,5 @@
+import torch
+
 def train_one_epoch(model, dataloader, criterion, optimizer, device):
     """
     Train the model for one epoch.
