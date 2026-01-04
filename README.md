@@ -333,6 +333,3 @@ This project is open source and available for educational purposes.
 
 ---
 
-<p align="center">
-  Made with ❤️ and PyTorch
-</p>
